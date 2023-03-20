@@ -94,23 +94,7 @@ const Hero = () => {
                                         }}
                                     />
                                 </HeroTitleWrap>
-                                <div
-                                    className="btn-wrp"
-                                    sx={{ display: "flex" }}
-                                >
-                                    <Button path="/causes" color="gradient">
-                                        All Causes{" "}
-                                        <i className="flaticon-right-arrow"></i>
-                                    </Button>
-                                    <Button
-                                        path="/donate"
-                                        variant="outlined"
-                                        sx={{ ml: "10px" }}
-                                    >
-                                        Donate Now{" "}
-                                        <i className="flaticon-right-arrow"></i>
-                                    </Button>
-                                </div>
+                               
                             </Content>
                         </Col>
                         <Col
@@ -166,7 +150,7 @@ const Hero = () => {
                                     <div className="pie-chart-circle"></div>
                                     <DonateContent>
                                         <div className="raised-amount">
-                                            $865M
+                                           650
                                         </div>
                                         <StaticImage
                                             className="line-shape-img"
@@ -174,7 +158,7 @@ const Hero = () => {
                                             alt="Image-Givest"
                                         />
                                         <h5 className="donate-title">
-                                            Total Raised
+                                            Jahre
                                         </h5>
                                     </DonateContent>
                                 </DonateCircleWrap>
